@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="3.4.3" />
+    <PackageReference Include="Otp.NET" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yume.Authorization\Yume.Authorization.csproj" />
+    <ProjectReference Include="..\Yume.Data\Yume.Data.csproj" />
+    <ProjectReference Include="..\Yume.Enums\Yume.Enums.csproj" />
+    <ProjectReference Include="..\Yume.Exceptions\Yume.Exceptions.csproj" />
+    <ProjectReference Include="..\Yume.Models\Yume.Models.csproj" />
+  </ItemGroup>
+
+</Project>
